@@ -1,3 +1,4 @@
+using mcosmetics.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -24,6 +25,8 @@ namespace mcosmetics
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddTransient<JsoncosFile>();
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,7 +53,9 @@ namespace mcosmetics
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-            });
+                endpoints.MapControllers();
+               
+                 });
         }
     }
 }

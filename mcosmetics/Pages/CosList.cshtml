@@ -1,0 +1,23 @@
+﻿@page
+@model mcosmetics.Pages.CosListModel
+@{
+    ViewData["Title"] = "Cos List";
+}
+
+<div class="text-center">
+    <h1 class="display-4">MCosmetics</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div class="row">
+    @foreach (var cosmetic in Model.Cosmetics)
+    {
+        <div id="cosContainer" class="col-lg-3 col-md-4 col-sm-12">
+            <img id="cosImg" src="@cosmetic.product_image" alt="@cosmetic.product_name" />
+            <span id="cosTitle">@cosmetic.product_name</span>
+            <span id="cosPrice">Rs. Coming Soon </span>
+            <span><input id="cosQuantity" type="number" name="quantity" value="" placeholder="0" /></span>
+            <span id="coscartButton"><button><i>Add To Cart</i></button></span>
+        </div>
+    }
+
+</div>

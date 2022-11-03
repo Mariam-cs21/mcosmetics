@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "name": "foundation",
+    "name": "Foundation",
     "image": "https://cdn.cosmostore.org/cache/front/shop/products/26/74439/350x350.jpg"
   },
   {
     "id": 2,
-    "name": "powder",
+    "name": "Powder",
     "image": "https://www.sanwarna.pk/wp-content/uploads/2020/08/3_f4d68f89-e44f-4a76-acb3-9348cf4f0cd2_400x@2x-1.jpg"
   },
   {
     "id": 3,
-    "name": "concealers",
+    "name": "Concealers",
     "image": "https://www.maybelline.com/~/media/mny/us/face-makeup/concealer/instant-age-rewind-eraser-dark-circles-concealer-treatment/new-images-2022/maybelline-face-instant-age-rewind-eraser-concealer-reno-122-041554546798-primary_760x1130.jpg"
   },
   {
     "id": 4,
-    "name": "eyeshades",
+    "name": "Eyeshades",
     "image": "https://1.bp.blogspot.com/-oAXM815mqIw/XYDmkJkQn_I/AAAAAAAAEsQ/5vYIaDK058Uup8WtFP24Cf21-BroabnUACLcBGAsYHQ/s1600/20190910_133940.jpg"
   },
   {
     "id": 5,
-    "name": "lipshades",
+    "name": "Lipshades",
     "image": "https://media.naheed.pk/catalog/product/cache/49dcd5d85f0fa4d590e132d0368d8132/1/2/1204025-2.jpg"
   },
   {
     "id": 6,
-    "name": "blush",
+    "name": "Blush",
     "image": "https://media.naheed.pk/catalog/product/cache/49dcd5d85f0fa4d590e132d0368d8132/1/2/1212202-1.jpg"
   },
   {
     "id": 7,
-    "name": "highlighter",
+    "name": "Highlighter",
     "image": "https://cdn.shopify.com/s/files/1/0067/0816/6738/products/BarryM_glowbeam-highlighter_2_1800x1800.jpg?v=1638551290"
   },
   {
     "id": 8,
-    "name": "contour",
+    "name": "Contour",
     "image": "https://www.thefacepaintingshop.com/image/cache/data/!!!!!Barry%20M/creamcontourkit-800x800.jpg"
   }
 ]
